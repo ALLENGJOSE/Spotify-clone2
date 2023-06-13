@@ -105,6 +105,71 @@ body{
 }
 .topbar .navbar ul li{
     display:inline-block;
-    margin: 0px;
-    
+    margin: 0px 8px;
+    width: 70px;
+}
+.topbar .navbar ul li a{
+    color:#b3b3b3;
+    text-decoration: none;
+    font-weight:bold;
+    font-size:14px;
+    letter-spacing: 1px;
+}
+.topbar .navbar ul li a:hover,
+.topbar .navbar ul li a:active,
+.topbar .navbar ul li a:focus{
+    color:#ffffff;
+    font-size:15px;
+}
+.topbar .navbar ul li.divider{
+    color:#ffffff;
+    font-size :26px;
+    margin:0px 20px;
+    width:auto;
+}
+.topbar .navbar button{
+    background-color: #ffffff;
+    color:#000000;
+    font-size:16px;
+    font-weight: bold;
+    padding:14px 30px;
+    border-radius:40px;
+    cursor:pointer;
+    margin-left: 20px;
+}
+.topbar .navbar button:hover,
+.topbar .navbar button:active,
+.topbar .navbar button:active{
+    background: color #f2f2f2 ;
+}
+.preview{
+    position:fixed;
+    bottom:0;
+    left:0;
+    right:0;
+    background:linear-gradient(to right, #ae2896,#509bf5) ;
+    padding:15px 40px;
+    display:flex;
+    justify-content: space-between;
+}
+.preview h6{
+    color:#ffffff;
+    text-transform: uppercase;
+    font-weight:400;
+    font-size: 12px;
+    margin-bottom:10px;
+}
+.preview p{
+    color:#ffffff;
+    font-size: 14px;
+    font-weight: 500;
+}
+.preview button{
+    background-color: #ffffff;
+    color:#000000;
+    font-size:16px;
+    font-weight:bold;
+    padding:14px 30px;
+    border-radius:40px;
+    cursor:pointer;
 }
